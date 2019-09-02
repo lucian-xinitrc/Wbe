@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Download</title>
+	<link rel="icon" href="data/next.png">
+	<link rel="stylesheet" type="text/css" href="data/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/69947885df.js"></script>
+</head>
+<body>
+	<nav class="navbar">
+		<img src="data/menu.png">
+		<i class="fas fa-chevron-right"></i>
+		<ul>
+			<a class="a"href="index.html">Home</a>
+			<a class="a"href="download.html">Download</a>
+			<a class="a"href="">About</a>
+		</ul>
+		<input class="bt" type= "button" value="GO" onclick="f()">
+		<input id="i1"class="in" type="textbox" placeholder="search">
+	</nav>
+	<download class="download1">
+		<h1 class="e">Tic Tac Toe</h1>
+		<br><br><br>
+		<a href="data/Tic_Tac_Toe.zip">Tic_Tac_Toe.zip</a>
+		<br><br><br>
+	</download>
+	<download class="download2">
+		<h1 class='e'>EX.Calculator</h1>
+		<br><br><br>
+		<a href="data/EX.Calculator.zip">EX.Calculator.zip</a>
+		<br><br><br>
+	</download>
+</body>
+<script>
+	function f(){
+		var input1 , input2 ;
+		input1 = document.getElementById("i1").value;
+		if(input1 == "Tic tac toe")
+			window.location="i.html";
+	}
+	</script>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cusmir Lucian</title>
+	<link rel="icon" href="data/next.png">
+	<link rel="stylesheet" type="text/css" href="data/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/69947885df.js"></script>
+</head>
+<body>
+	<nav class="navbar">
+		<img src="data/menu.png">
+		<i class="fas fa-chevron-right"></i>
+		<ul>
+			<a class="a"href="index.html">Home</a>
+			<a class="a"href="download.html">Download</a>
+			<a class="a"href="">About</a>
+		</ul>
+		<input class="bt" type= "button" value="GO" onclick="f()">
+		<input id="i1"class="in" type="textbox" placeholder="search">
+	</nav>
+	<img class="formimg" src="data/2474065.jpg">
+	<form class="form">
+		<h1>Bine ati venit !!!</h1>
+		<p>Din fericire website-ul nostru este pe internet , deocamdata in beta , nu este finalizat complet , dar lucram ca acesta sa fie terminat inainte ca scoala sa inceapa .Puteti sa ne contactati pe pagina de facebook , instagram , sau la adresele de email de mai jos pentru eventualele erori descoperite .</p>
+	</form>
+</body>
+<script>
+	function f(){
+		var input1 , input2 ;
+		input1 = document.getElementById("i1").value;
+		if(input1 == "Tic tac toe")
+			window.location="i.html";
+	}
+	</script>
+</html>
